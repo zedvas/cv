@@ -148,6 +148,22 @@ header {
   background-color: white;
 }
 
+/*
+******************************
+NAVBAR STYLES
+******************************
+*/
+
+nav ul ul  {
+  display: none;
+}
+
+/*
+******************************
+END
+******************************
+*/
+
 img {
   border-radius: 50%;
   height: 200px;
@@ -185,7 +201,7 @@ h3 {
 }
 
 footer {
-  height: 30%; /*WHY ISN'T THIS WORKING?*/
+  height: 10vh; 
 }
 
 @media (min-width: 1200px) {
