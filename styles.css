@@ -189,6 +189,7 @@ header h1 {
 .headshot {
     height: 300px;
     border-radius: 50%;
+    z-index:-2;
 }
 
 header .flex-container:first-child {
@@ -272,7 +273,6 @@ nav ul ul {
     left: 0px;
     transform: translateX(-100vw);
     background-color: hsla(331, 90%, 50%, 1);
-    /* z-index: 999 */
 }
 
 nav ul ul li {
@@ -309,6 +309,8 @@ main .flex-container {
     position: relative;
     top: 50px;
     margin-bottom: 100px;
+    z-index: -1;
+
 
 }
 
@@ -338,7 +340,7 @@ main .flex-container {
 .flex-container .button-container {
     flex-direction: row;
     position: relative;
-    /* z-index: 700; */
+    z-index: -1;
     top: -60px;
 }
 
