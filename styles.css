@@ -189,7 +189,7 @@ header h1 {
 .headshot {
     height: 300px;
     border-radius: 50%;
-    z-index:-2;
+    z-index: -2;
 }
 
 header .flex-container:first-child {
@@ -203,15 +203,15 @@ header .flex-container:first-child {
 .logo-container span span {
     font-size: 0.9rem;
     position: relative;
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     display: inline-block;
     transform: rotate(340deg);
-    color:hsla(331, 90%, 50%, 1);
+    color: hsla(331, 90%, 50%, 1);
     font-weight: 700;
 }
 
-nav > ul:first-child {
+nav>ul:first-child {
     padding: 0px 10px;
 
 }
@@ -294,10 +294,11 @@ nav ul li:hover>ul {
      INTRO CONTAINER
 **************************
 */
-main > section > .flex-container:first-child {
+main>section>.flex-container:first-child {
     height: 90vh;
     align-items: center;
 }
+
 main .flex-container {
     flex-direction: column;
 }
@@ -305,7 +306,7 @@ main .flex-container {
 .intro-container {
     align-items: flex-start;
     width: 80vw;
-    max-width: 430px;    
+    max-width: 430px;
     position: relative;
     top: 50px;
     margin-bottom: 100px;
@@ -328,6 +329,7 @@ main .flex-container {
 .intro-container p {
     font-size: 1.2rem;
 }
+
 /*
 ************END***********
 */
@@ -339,14 +341,13 @@ main .flex-container {
 
 .flex-container .button-container {
     flex-direction: row;
-    position: relative;
-    z-index: -1;
-    top: -60px;
+    margin-top: -60px;
+    z-index: -1;                        /* fixes stacking issue but button now not clickable */
 }
 
 main button {
     background-color: hsla(331, 90%, 50%, 1);
-    color:white;
+    color: white;
     font-size: 1.6rem;
     font-weight: 800;
     min-height: 100px;
@@ -362,8 +363,10 @@ main button:nth-child(2) {
 }
 
 main button:hover {
-    background-color: hsla(331, 90%, 50%, 0.5);}
-    /*
+    background-color: hsla(331, 90%, 50%, 0.5);
+}
+
+/*
 ************END***********
 */
 /*
@@ -380,7 +383,8 @@ section i {
     font-size: 1rem;
 }
 
-section p, section li {
+section p,
+section li {
     font-size: 1.5rem;
 }
 
@@ -388,7 +392,7 @@ main h2 {
     font-size: 6rem;
     background-color: hsla(331, 90%, 50%, 1);
     padding: 0 2px;
-    color:white
+    color: white
 }
 
 main h3 {
@@ -411,7 +415,7 @@ main p {
 */
 footer {
     background-color: hsla(331, 90%, 50%, 1);
-color: white;
+    color: white;
 }
 
 
