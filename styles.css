@@ -271,6 +271,7 @@ nav ul ul {
     position: absolute;
     display: flex;
     left: 0px;
+    top: 10vh;
     transform: translateX(-100vw);
     background-color: hsla(331, 90%, 50%, 1);
 }
@@ -285,6 +286,7 @@ nav ul li:hover>ul {
     display: flex;
     transform: translateX(0%);
 }
+
 
 /*
 ************END***********
