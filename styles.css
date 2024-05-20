@@ -245,10 +245,10 @@ nav>ul:first-child {
 */
 /*
 **************************
-          NAV
+           REAL NAV
 **************************
 */
-a {
+/* a {
     text-decoration: none;
     color: inherit;
 }
@@ -285,6 +285,52 @@ nav ul li:hover>ul {
     transition: all 2s ease-in-out;
     display: flex;
     transform: translateX(0%);
+}
+ */
+
+/*
+************END***********
+*/
+/*
+**************************
+           TEMP NAV
+**************************
+*/
+/* main, footer {display:none;}commenting out main */
+a {text-decoration: none;color: inherit;}/*general aesthetic stuff*/
+ul {list-style-type: none;}/*general aesthetic stuff*/
+nav ul {
+    position: relative;
+}
+nav ul ul {
+    position: absolute;
+    right:0;
+    width: 40vw;
+    height: 90vh;
+    background-color: hsla(331, 90%, 50%, 1); /*change back to alpha 1 after test*/
+    display: none;
+    /* width: 100vw;
+    height: 90vh; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* position: absolute; */
+    /* display: flex; */
+    /* left: 0px;
+    top: 10vh; */
+    /* transform: translateX(-100vw); */ /*commenting out transition */
+}
+nav ul ul ul li {
+    /* display: none; */
+    /* font-size: 2rem;general aesthetic stuff */
+    /* margin-bottom: 1em;general aesthetic stuff */
+
+}
+nav ul li:hover>ul, nav ul li:focus-within>ul {
+    display: inline-block;
+    /* transition: all 2s ease-in-out; *//*commenting out transition */
+    /* display: flex; */
+    /* transform: translateX(0%); *//*commenting out transition */
 }
 
 
